@@ -12,7 +12,7 @@ public class Item : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (TryGetComponent<PlayerInventory>(out PlayerInventory plyInv))
+        if (other.TryGetComponent<PlayerInventory>(out PlayerInventory plyInv))
         {
             plyInv.AddItem(data);
             gameObject.SetActive(false);
