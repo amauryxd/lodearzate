@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3c46f1556fbb9c42811c1ee322ccd17, type: 3}
-  m_Name: Mana Pocion
+  m_Name: Espada
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Nombre: Pocion de mana
-  imagePath: 
-  description: Es gatorade de mora
+  Nombre: Espada
+  imagePath: images/asda
+  description: Esta filosa
+  typeID: 11

@@ -11,4 +11,6 @@ public class ItemSOB
     public string Name;
     public string imagePath;
     public string Description;
+    public int quantity;
+    public int typeID;
 }

@@ -6,5 +6,6 @@ public class ItemData : ScriptableObject
     public string Nombre;
     public string imagePath;
     public string description;
+    public int typeID;
     
 }

@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public List<ItemData> itemDatas = new List<ItemData>();
+    //public List<ItemData> itemDatas = new List<ItemData>();
     public ItemData data;
     void Start()
     {
-        data = itemDatas[Random.Range(0, itemDatas.Count)];
+        //data = itemDatas[Random.Range(0, itemDatas.Count)];
     }
 
     void OnTriggerEnter(Collider other)
@@ -16,6 +16,7 @@ public class Item : MonoBehaviour
         {
             plyInv.AddItem(data);
             gameObject.SetActive(false);
+            plyInv.SaveOnJson();
         }
     }
 }
